@@ -1,9 +1,5 @@
 language: node_js
-os:
-  - windows
-cache:
-  directories:
-    - ~/.npm
+cache: npm
 notifications:
   email: false
 node_js:
